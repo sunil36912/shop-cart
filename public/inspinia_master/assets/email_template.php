@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>INSPINIA | Email Template</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+   <?php include './lib/navigation.php';?>
+
+
+        <div id="page-wrapper" class="gray-bg">
+        <?php include './lib/header.php';?>
+
+            <div class="row wrapper border-bottom white-bg page-heading">
+                <div class="col-lg-10">
+                    <h2>Email Template</h2>
+                    <ol class="breadcrumb">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a>Mailbox</a>
+                        </li>
+                        <li class="active">
+                            <strong>Email Template</strong>
+                        </li>
+                    </ol>
+                </div>
+                <div class="col-lg-2">
+
+                </div>
+            </div>
+        <div class="wrapper wrapper-content  animated fadeInRight">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="ibox ">
+                        <div class="ibox-title">
+                            <h5>Responsive transactional HTML email templates</h5>
+                        </div>
+                        <div class="ibox-content">
+                            <p>
+                                Transactional HTML emails. Each template is responsive and each has been tested in all the popular email clients. Credits to <a target="_blank" href="https://github.com/mailgun/transactional-email-templates">Maligun</a>
+                            </p>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <h4>Basic action email</h4>
+                                        <a href="email_templates/action.html" target="_blank">
+                                    <img src="img/email_1.jpg" class="img-responsive" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-md-4">
+                                    <h4>Email alert </h4>
+                                        <a href="email_templates/alert.html" target="_blank">
+                                    <img src="img/email_2.jpg" class="img-responsive" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-md-4">
+                                    <h4>Billing email</h4>
+                                        <a href="email_templates/billing.html" target="_blank">
+                                    <img src="img/email_3.jpg" class="img-responsive" alt="">
+                                        </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="pull-right">
+                10GB of <strong>250GB</strong> Free.
+            </div>
+            <div>
+                <strong>Copyright</strong> Example Company &copy; 2014-2015
+            </div>
+        </div>
+
+        </div>
+        </div>
+
+
+
+    <!-- Mainly scripts -->
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+    <!-- Custom and plugin javascript -->
+    <script src="js/inspinia.js"></script>
+    <script src="js/plugins/pace/pace.min.js"></script>
+
+    <script src="js/plugins/jquery-ui/jquery-ui.min.js"></script>
+
+
+
+</body>
+
+</html>

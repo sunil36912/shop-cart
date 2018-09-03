@@ -18,4 +18,17 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::resource('/file_upload', 'FileUploadController');
+Route::get('/cart/{product_id}', [
+
+'uses'=>'CartController@addProductToCart',
+'as' =>'cart.add'
+
+]);
+Route::get('cartitem', [
+
+'uses'=>'CartController@ProductInCart',
+'as' =>'cart.getcart'
+
+]);
+Route::resource('/product', 'ProductController');
+
